@@ -102,14 +102,26 @@ Designed for **low maintenance** and **high scalability**, ensuring quick adopti
 
 ## 📁 Project Structure
 
-SQL-Data-Warehouse-Project/
-├── 0-Datasets/             # Raw CSV files (ERP & CRM)
-├── documents/                 # Diagrams & metadata
-├── 2-DDL & ETL Scripts/    # Modular ETL scripts (bronze/silver/gold)
-├── 3-Tests/                # Data quality and validation scripts
-├── 4-Analytics/            # Analytical SQL views & KPIs
-├── README.md               # Project documentation
-└── LICENSE                 # License information
+Data-Warehouse-Project/
+│
+├── 0-Datasets/                         # Raw datasets used for the project (ERP and CRM data)
+│
+├── documents/                        # Project documentation and architecture details
+│   ├── data_architecture.png           # Draw.io file shows the project's architecture
+│   ├── data_integration.png            # Draw.io file shows how the data files are related
+│   ├── data_models.png                 # Draw.io file for data models (star schema)
+│   ├── data_catalog.md                 # Catalog of datasets, including field descriptions and metadata
+│   ├── naming-conventions.md           # Consistent naming guidelines for tables, columns, and files
+│
+├── Scripts/                # SQL scripts for ETL and transformations
+│   ├── bronze/                         # Scripts for extracting and loading raw data
+│   ├── silver/                         # Scripts for cleaning and transforming data
+│   ├── gold/                           # Scripts for creating analytical models
+│
+├── tests/                            # Test scripts and quality files
+│
+├── README.md                           # Project overview and instructions
+├── LICENSE                             # License information for the repository
 
 ---
 
