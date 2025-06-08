@@ -16,6 +16,9 @@ Usage Example:
     EXEC bronze.load_bronze;
 ===============================================================================
 */
+
+-- Create a new stored procedure called 'load_bronze' in schema 'bronze'
+-- Drop the stored procedure if it already exists
 IF EXISTS (
 SELECT *
     FROM INFORMATION_SCHEMA.ROUTINES
