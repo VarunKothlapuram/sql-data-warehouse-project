@@ -4,7 +4,9 @@ Building a modern Data warehouse with SQL Server, including ETL processes, data 
 
 ---
 ### SQL Data Warehouse Project
-##End-to-End Data Engineering Project Using Medallion Architecture
+###End-to-End Data Engineering Project Using Medallion Architecture
+
+
 ##🚀 Project Overview
 
 This project delivers a complete end-to-end SQL Data Warehouse solution using the Medallion Architecture. It focuses on strong data engineering practices, scalable ETL development, and advanced analytics, ultimately providing high-quality data and insights for business intelligence and reporting.
