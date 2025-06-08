@@ -16,7 +16,15 @@ Simulating a real-world enterprise scenario with CRM and ERP datasets, the proje
 
 ## 🔧 Key Components
 
-###  1. Data Architecture – Medallion Model
+###  1.Data Integration
+---
+I explored the data sources to understand their content and interrelationships. Then designed a Data Integration Diagram to visualize the source systems and how they connect, making it easy to grasp the structure at a glance.
+
+![image](https://github.com/user-attachments/assets/87ab89ec-2e17-4f92-aa27-7aff12839ef1)
+
+---
+
+###  2. Data Architecture – Medallion Model
 
 The Data Warehouse is designed using the **Medallion Architecture**, separating data into clearly defined layers for transparency and efficiency:
 
@@ -30,7 +38,7 @@ The Data Warehouse is designed using the **Medallion Architecture**, separating 
 
 ---
 
-###  2. ETL Pipelines
+###  3. ETL Pipelines
 
 Built using modular SQL scripts, the ETL process extracts, transforms, and loads data through each layer:
 
@@ -40,7 +48,7 @@ Built using modular SQL scripts, the ETL process extracts, transforms, and loads
 
 ---
 
-###  3. Data Modeling – Star Schema
+###  4. Data Modeling – Star Schema
 
 A well-designed **Star Schema** supports fast and intuitive querying:
 
@@ -57,7 +65,7 @@ Relational integrity is maintained with primary/foreign keys for reliable joins 
 
 ---
 
-###  4. Advanced Analytics & KPIs
+###  5. Advanced Analytics & KPIs
 
 Custom analytical views were built in the Gold Layer to support strategic decision-making:
 
@@ -80,7 +88,7 @@ These insights empower marketing, sales, retention, and inventory decisions.
 
 ---
 
-### 📈 5. Reporting Readiness (Power BI Integration)
+### 📈 6. Reporting Readiness (Power BI Integration)
 
 Gold Layer outputs are **dashboard-ready** and structured for seamless reporting:
 
@@ -89,14 +97,6 @@ Gold Layer outputs are **dashboard-ready** and structured for seamless reporting
 * ✅ Zero need for additional transformations in BI tools
 
 Designed for **low maintenance** and **high scalability**, ensuring quick adoption by reporting teams using Power BI or Tableau.
-
----
-
-Data Integration
----
-I explored the data sources to understand their content and interrelationships. Then designed a Data Integration Diagram to visualize the source systems and how they connect, making it easy to grasp the structure at a glance.
-
-![image](https://github.com/user-attachments/assets/87ab89ec-2e17-4f92-aa27-7aff12839ef1)
 
 ---
 
