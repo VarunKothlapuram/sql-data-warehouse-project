@@ -1,18 +1,6 @@
-# sql-data-warehouse-project
-Building a modern Data warehouse with SQL Server, including ETL processes, data modeling, and analytics. 
-
-
----
-### SQL Data Warehouse Project
-
-End-to-End Data Engineering Project Using Medallion Architecture
-
-
-Here’s your project description presented in a clean, **structured** and **professional** Markdown format for your GitHub README:
-
 ---
 
-# 📦 SQL Data Warehouse Project
+#  SQL Data Warehouse Project
 
 ### 🎯 End-to-End Data Engineering Using Medallion Architecture
 
@@ -28,7 +16,7 @@ Simulating a real-world enterprise scenario with CRM and ERP datasets, the proje
 
 ## 🔧 Key Components
 
-### 🧱 1. Data Architecture – Medallion Model
+###  1. Data Architecture – Medallion Model
 
 The Data Warehouse is designed using the **Medallion Architecture**, separating data into clearly defined layers for transparency and efficiency:
 
@@ -40,7 +28,7 @@ The Data Warehouse is designed using the **Medallion Architecture**, separating 
 
 ---
 
-### 🔄 2. ETL Pipelines
+###  2. ETL Pipelines
 
 Built using modular SQL scripts, the ETL process extracts, transforms, and loads data through each layer:
 
@@ -50,7 +38,7 @@ Built using modular SQL scripts, the ETL process extracts, transforms, and loads
 
 ---
 
-### 🧠 3. Data Modeling – Star Schema
+###  3. Data Modeling – Star Schema
 
 A well-designed **Star Schema** supports fast and intuitive querying:
 
@@ -64,7 +52,7 @@ Relational integrity is maintained with primary/foreign keys for reliable joins 
 
 ---
 
-### 📊 4. Advanced Analytics & KPIs
+###  4. Advanced Analytics & KPIs
 
 Custom **analytical views** were built in the Gold Layer to support strategic decision-making:
 
@@ -99,6 +87,11 @@ Designed for **low maintenance** and **high scalability**, ensuring quick adopti
 
 ---
 
+Data Integration
+---
+I explored the data sources to understand their content and interrelationships. Then designed a Data Integration Diagram to visualize the source systems and how they connect, making it easy to grasp the structure at a glance.
+![image](https://github.com/user-attachments/assets/c77ddf4c-e5b0-41c4-b060-57e26f667439)
+---
 ## 📁 Project Structure
 
 ```
