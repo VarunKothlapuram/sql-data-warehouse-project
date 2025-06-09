@@ -20,7 +20,8 @@ Simulating a real-world enterprise scenario with CRM and ERP datasets, the proje
 ---
 I explored the data sources to understand their content and interrelationships. Then designed a Data Integration Diagram to visualize the source systems and how they connect, making it easy to grasp the structure at a glance.
 
-![image](https://github.com/user-attachments/assets/87ab89ec-2e17-4f92-aa27-7aff12839ef1)
+![image](https://github.com/user-attachments/assets/e46b6f64-b217-4394-a512-794635bd1fcf)
+
 
 ---
 
